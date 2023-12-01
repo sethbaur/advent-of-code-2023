@@ -1,2 +1,4 @@
+import day1 from './days/01';
+
 // add days in order
-export default [];
+export default [day1];
