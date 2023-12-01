@@ -21,7 +21,7 @@ $ npm run day 12
 ## Directory Structure
 
 ```
-advent-of-code-2022/
+advent-of-code-2023/
 └── src/
     ├── days/
     |   ├── 00/ # template for additional days
