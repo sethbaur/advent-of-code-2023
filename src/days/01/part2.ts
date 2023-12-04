@@ -32,7 +32,6 @@ export const sumCalibrations = (data: string[]) => {
     .reduce((sum: number, numbers: string[]) => {
       const firstNumber = numberMap[numbers[0]] ?? parseInt(numbers[0]);
       const secondNumber = numberMap[numbers[numbers.length - 1]] ?? parseInt(numbers[numbers.length - 1]);
-      // console.log(firstNumber, secondNumber);
       return sum + parseInt(`${firstNumber}${secondNumber}`);
   }, 0);
 };
