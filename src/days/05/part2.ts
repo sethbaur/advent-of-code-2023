@@ -32,4 +32,5 @@ export const getLowestLocation = (almanacString: string): number => {
   }, 0);
 };
 
-export default () => { return getLowestLocation(data) };
+// export default () => { return getLowestLocation(data) };
+export default () => true;
