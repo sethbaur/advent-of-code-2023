@@ -9,7 +9,7 @@ Distance:  9  40  200
 
 const data = parseData(sampleData);
 
-describe("day 0, part 1", () => {
+describe("day 6, part 1", () => {
   test("getDistance", () => {
     expect(getDistance(7, 1)).toBe(6);
     expect(getDistance(7, 4)).toBe(12);
@@ -35,7 +35,7 @@ describe("day 0, part 1", () => {
   });
 });
 
-describe("day 0, part 2", () => {
+describe("day 6, part 2", () => {
   test("getRace", () => {
     expect(getRace(data)).toEqual([71530, 940200]);
   });

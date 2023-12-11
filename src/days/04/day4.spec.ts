@@ -13,7 +13,7 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11
 
 const data = parseData(sampleData);
 
-describe("day 0, part 1", () => {
+describe("day 4, part 1", () => {
   test("getResults", () => {
     expect(getResults(data[0])).toStrictEqual([
       [41, 48, 83, 86, 17],
@@ -31,7 +31,7 @@ describe("day 0, part 1", () => {
   });
 });
 
-describe("day 0, part 2", () => {
+describe("day 4, part 2", () => {
   test("setupCard", () => {
     expect(setupCard(data[0], 2)).toStrictEqual([3, 4, 5, 6]);
   });

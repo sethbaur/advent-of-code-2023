@@ -12,7 +12,7 @@ Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green
 
 const data = parseData(sampleData);
 
-describe("day 0, part 1", () => {
+describe("day 2, part 1", () => {
   test("createRound", () => {
     expect(createRound("3 blue, 4 red")).toEqual({
       groups: [
@@ -53,7 +53,7 @@ describe("day 0, part 1", () => {
   });
 });
 
-describe("day 0, part 2", () => {
+describe("day 2, part 2", () => {
   test("part 2", () => {
     expect(powersOfGames(data)).toBe(2286);
   });

@@ -40,7 +40,7 @@ humidity-to-location map:
 
 const data = parseData(sampleData);
 
-describe("day 0, part 1", () => {
+describe("day 5, part 1", () => {
   test("getSeeds", () => {
     expect(getSeeds(sampleData)).toEqual([79, 14, 55, 13]);
   });
@@ -76,7 +76,7 @@ describe("day 0, part 1", () => {
   });
 });
 
-describe("day 0, part 2", () => {
+describe("day 5, part 2", () => {
   test("getSeeds", () => {
     expect(getSeeds2(sampleData)).toEqual([
       [79, 14],

@@ -17,7 +17,7 @@ const sampleData = `
 
 const data = parseData(sampleData);
 
-describe("day 0, part 1", () => {
+describe("day 3, part 1", () => {
   test("getNumbersWithPosition", () => {
     const line = "467..114..";
     expect(getNumbersWithPosition(line)).toEqual([
@@ -61,7 +61,7 @@ const sampleData2 = `
 
 const data2 = parseData(sampleData2);
 
-describe("day 0, part 2", () => {
+describe("day 3, part 2", () => {
   test("getGearsWithPosition", () => {
     const line = "*...*..";
     expect(getGearsWithPosition(line)).toEqual([0, 4]);
